@@ -2,11 +2,12 @@
 title: "Projects"
 listing: 
   contents: 
+  - project3.qmd
+  - project4.qmd
   - project1.qmd
   - project2.qmd
-  - project3.qmd
   type: grid
-  categories: true
+  categories: false
   fields: [image,title]
+  sort: false
 ---
-

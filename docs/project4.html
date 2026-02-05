@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PORTFOLIO - Projects</title>
+<title>PORTFOLIO - Meta AD Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -151,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./Projects.html" aria-current="page"> 
+    <a class="nav-link" href="./Projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -182,7 +122,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Meta AD Analysis</h1>
 </div>
 
 
@@ -199,73 +139,38 @@ window.Quarto = {
 </header>
 
 
+<section id="project-link" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="project-link">[<a href="https://github.com/PoojaSridharan/Projects/tree/main/Meta%20Ad%20Analysis">Project Link</a>]</h2>
+<p>In the competitive landscape of digital marketing, data is the compass that guides every dollar spent. This project highlights a deep-dive analysis into a <strong>Meta Ad campaign</strong> with a significant <strong>$2.54M total budget</strong> , aimed at uncovering the drivers of high-value engagement and conversions.</p>
+<section id="the-problem-navigating-data-noise-at-scale" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem-navigating-data-noise-at-scale"><strong>The Problem: Navigating Data Noise at Scale</strong></h3>
+<p>Managing a large-scale advertising budget of <strong>$2.54M</strong> across multiple global regions often leads to “data fatigue,” where high-level metrics hide granular inefficiencies. Without a centralized view, it is difficult to determine exactly which demographic segments are driving the <strong>2K purchases</strong> and whether the <strong>$50.72K average campaign spend</strong> is being allocated to the most active time windows.</p>
+</section>
+<section id="the-solution-integrated-power-bi-intelligence" class="level3">
+<h3 class="anchored" data-anchor-id="the-solution-integrated-power-bi-intelligence"><strong>The Solution: Integrated Power BI Intelligence</strong></h3>
+<p>I developed an interactive <strong>Meta AD Performance Dashboard</strong> that consolidates data from Facebook and Instagram to provide a single source of truth. By building dynamic filters for <strong>Campaign Name</strong>, <strong>Target Interest</strong>, and <strong>Month</strong>, the solution allows stakeholders to drill down from broad impressions to specific purchase behaviors in real-time.</p>
+</section>
+<section id="tools-used" class="level3">
+<h3 class="anchored" data-anchor-id="tools-used"><strong>Tools Used</strong></h3>
+<ul>
+<li><p><strong>Power BI</strong>: For data modeling, relationship mapping, and interactive visualization.</p></li>
+<li><p><strong>DAX (Data Analysis Expressions)</strong>: To calculate critical performance ratios like <strong>CTR (11.79%)</strong>, <strong>Engagement Rate (13.58%)</strong>, and <strong>Purchase Rate (0.60%)</strong>.</p></li>
+</ul>
+</section>
+<section id="key-inferences-strategic-insights" class="level3">
+<h3 class="anchored" data-anchor-id="key-inferences-strategic-insights"><strong>Key Inferences &amp; Strategic Insights</strong></h3>
+<ul>
+<li><p><strong>Demographic Sweet Spot</strong>: Engagement is most concentrated in the <strong>20–30 age group</strong>, suggesting that creative messaging should remain tailored to a younger audience.</p></li>
+<li><p><strong>Gender Engagement</strong>: While the conversion rate is consistent across genders (0.05), the <strong>“All” gender category</strong> accounts for the largest share of engagement at <strong>41.05%</strong>.</p></li>
+<li><p><strong>Prime Time Windows</strong>: Engagement peaks in the <strong>Afternoon (11,610)</strong> and stays strong through the <strong>Evening (11,574)</strong>, identifying the optimal window for high-stakes ad delivery.</p></li>
+<li><p><strong>Format Reliability</strong>: Performance remains stable across <strong>Video, Image, and Stories</strong>, indicating that the current creative strategy is scalable across all Meta placements.</p></li>
+</ul>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1770312224750" data-listing-reading-time-sort="3" data-listing-word-count-sort="593">
-<a href="./project3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./img3.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Personalized Movie &amp; TV Show Recommender
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1770312102891" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
-<a href="./project4.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./img4-1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Meta AD Analysis
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1770312210923" data-listing-reading-time-sort="3" data-listing-word-count-sort="569">
-<a href="./project1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./img1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Economic Correlations and Insights Analysis
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1770312135701" data-listing-reading-time-sort="4" data-listing-word-count-sort="601">
-<a href="./project2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./img1-1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Job Trends Analysis (2020- 2024)
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

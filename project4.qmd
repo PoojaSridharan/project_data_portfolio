@@ -1,0 +1,34 @@
+---
+title: "Meta AD Analysis"
+format: html
+editor: visual
+image: img4-1.png
+---
+
+## \[[Project Link](https://github.com/PoojaSridharan/Projects/tree/main/Meta%20Ad%20Analysis)\] {.unlisted}
+
+In the competitive landscape of digital marketing, data is the compass that guides every dollar spent. This project highlights a deep-dive analysis into a **Meta Ad campaign** with a significant **\$2.54M total budget** , aimed at uncovering the drivers of high-value engagement and conversions.
+
+### **The Problem: Navigating Data Noise at Scale**
+
+Managing a large-scale advertising budget of **\$2.54M** across multiple global regions often leads to "data fatigue," where high-level metrics hide granular inefficiencies. Without a centralized view, it is difficult to determine exactly which demographic segments are driving the **2K purchases** and whether the **\$50.72K average campaign spend** is being allocated to the most active time windows.
+
+### **The Solution: Integrated Power BI Intelligence**
+
+I developed an interactive **Meta AD Performance Dashboard** that consolidates data from Facebook and Instagram to provide a single source of truth. By building dynamic filters for **Campaign Name**, **Target Interest**, and **Month**, the solution allows stakeholders to drill down from broad impressions to specific purchase behaviors in real-time.
+
+### **Tools Used**
+
+-   **Power BI**: For data modeling, relationship mapping, and interactive visualization.
+
+-   **DAX (Data Analysis Expressions)**: To calculate critical performance ratios like **CTR (11.79%)**, **Engagement Rate (13.58%)**, and **Purchase Rate (0.60%)**.
+
+### **Key Inferences & Strategic Insights**
+
+-   **Demographic Sweet Spot**: Engagement is most concentrated in the **20–30 age group**, suggesting that creative messaging should remain tailored to a younger audience.
+
+-   **Gender Engagement**: While the conversion rate is consistent across genders (0.05), the **"All" gender category** accounts for the largest share of engagement at **41.05%**.
+
+-   **Prime Time Windows**: Engagement peaks in the **Afternoon (11,610)** and stays strong through the **Evening (11,574)**, identifying the optimal window for high-stakes ad delivery.
+
+-   **Format Reliability**: Performance remains stable across **Video, Image, and Stories**, indicating that the current creative strategy is scalable across all Meta placements.

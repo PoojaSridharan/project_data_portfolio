@@ -2,18 +2,18 @@
 title: "Data Job Trends Analysis (2020- 2024)"
 format: html
 editor: visual
-image: img2.png
+image: img1-1.png
 ---
 
-### \[[Project Link](https://github.com/PoojaSridharan/Projects/tree/main/Power%20BI%20Project)\]
+## [\[Project Link\]](https://github.com/PoojaSridharan/Projects/tree/main/Power%20BI%20Project)\] {.unlisted}
 
 In a world where data drives decision-making across industries, the demand for data-related roles has been on a continuous rise. But how has the demand evolved globally, and what insights can we gain by analyzing these trends? The **Data Job Trends Analysis Dashboard (2020-2024)** is an interactive Power BI tool designed to answer precisely these questions. Spanning five years, this dashboard provides comprehensive insights into data job trends worldwide, helping professionals, recruiters, and industry experts make informed career and hiring decisions.
 
-#### Project Overview: Mapping Demand for Data Roles Across Countries
+### **Project Overview: Mapping Demand for Data Roles Across Countries**
 
 The primary objective of this project is to capture the changing landscape of data roles, including data analysts, data scientists, data engineers, and business analysts, from 2020 to 2024. By tracking job openings and market fluctuations, the dashboard enables a comparative analysis of how demand varies by country, offering a dynamic view of where opportunities in data are growing or waning.
 
-#### Key Features and Methodology
+### **Key Features and Methodology**
 
 1.  **Global Demand Analysis by Role and Country**\
     The dashboard breaks down the demand for data roles across different countries, illustrating which regions have seen the most growth. Users can quickly spot trends in high-demand areas, understanding how countries like the United States, Germany, and India have evolved in terms of hiring for data roles. This feature aids recruiters and job seekers alike by providing a geographic view of the data job market.
@@ -24,7 +24,7 @@ The primary objective of this project is to capture the changing landscape of da
 3.  **Country-Specific Trends and Market Insights**\
     Beyond global trends, the dashboard allows users to zoom in on specific countries to see granular trends within their data job markets. This feature is particularly useful for professionals aiming to understand job demand in specific regions, recruiters refining their talent acquisition strategies, or career strategists guiding candidates based on local market conditions.
 
-#### Tools & Technologies Used
+### **Tools & Technologies Used**
 
 -   **Power BI**: Central tool for creating and designing an interactive dashboard, enabling clear, accessible data visualizations.
 
@@ -32,7 +32,7 @@ The primary objective of this project is to capture the changing landscape of da
 
 -   **Excel**: Used for data preparation, including data wrangling and initial preprocessing to optimize for Power BI integration.
 
-#### Key Takeaways and Industry Implications
+### **Key Takeaways and Industry Implications**
 
 The Data Job Trends Analysis Dashboard (2020-2024) provides several key insights, making it an invaluable resource for anyone connected to the data job market:
 

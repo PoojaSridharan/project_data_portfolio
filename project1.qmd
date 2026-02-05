@@ -5,15 +5,15 @@ editor: visual
 image: img1.png
 ---
 
-### \[[Project Link](https://github.com/PoojaSridharan/Projects/tree/main/SQL%20Project)\]
+## \[[Project Link](https://github.com/PoojaSridharan/Projects/tree/main/SQL%20Project)\] {.unlisted}
 
 Understanding the economic and social well-being of countries requires a multifaceted approach. Factors such as GDP, corruption, cost of living, tourism, and unemployment rates all intertwine, shaping each nation’s unique economic landscape. This **SQL-based Economic and Social Analysis of Countries** project uses SQL as the core tool to dive into these connections, revealing insights that can inform economic policies and offer a data-backed understanding of how wealth, corruption, and other indicators influence global stability.
 
-#### Project Overview: Unveiling Economic Patterns with SQL
+### **Project Overview: Unveiling Economic Patterns with SQL**
 
 This project harnesses SQL to perform an in-depth exploration of economic indicators across multiple countries. By analyzing the relationships among factors such as GDP, corruption, tourism, and employment, this project aims to uncover patterns and correlations. The objective is to create a structured, data-driven approach to understand what drives economic health and stability around the world.
 
-#### Key Focus Areas and Methodology
+### **Key Focus Areas and Methodology**
 
 1.  **Correlation Analysis Between Corruption and GDP**\
     One of the main objectives of this project is to quantify the relationship between corruption levels and GDP. Using SQL, I analyzed data across varying levels of corruption to assess its impact on economic growth. The SQL queries reveal how higher levels of corruption correlate with lower GDP, suggesting the negative economic consequences of corruption.
@@ -24,17 +24,17 @@ This project harnesses SQL to perform an in-depth exploration of economic indica
 3.  **Building a Composite Index to Rank Economic Health**\
     To provide a more comprehensive view, I created a composite index to rank countries based on overall economic health, incorporating factors like GDP, corruption, cost of living, and unemployment. SQL functions enabled grouping and ranking, allowing us to identify countries that score highly on economic health and those with room for improvement.
 
-#### Clustering Countries for Comparative Analysis
+### **Clustering Countries for Comparative Analysis**
 
 Using SQL’s grouping and filtering capabilities, the project also clusters countries into distinct performance categories. This clustering provides a comparative framework, making it easier to identify groups of countries with similar economic profiles. These clusters help highlight common challenges or strengths and offer insights into which factors are most influential for each cluster.
 
-#### Tools & Technologies Used
+### **Tools & Technologies Used**
 
 -   **SQL**: Central tool for querying, aggregating, and analyzing data to discover economic patterns.
 
 -   **Data Aggregation and Cleaning**: Using SQL to prepare, clean, and handle missing or inconsistent data points.
 
-#### Key Insights and Outcomes
+### **Key Insights and Outcomes**
 
 This project extends beyond SQL skills to apply data analytics to real-world economic questions, providing several important takeaways:
 

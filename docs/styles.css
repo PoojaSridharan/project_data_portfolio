@@ -1,0 +1,117 @@
+body {
+  text-align: justify;
+  hyphens: auto;           /* Automatically adds hyphens */
+  word-spacing: -0.05em;   /* Optional: slightly tightens word gaps */
+  line-height: 1.6;
+}
+/* --- Text Justification & Readability --- */
+p {
+  text-align: justify;
+  text-justify: inter-character; /* Distributes space between letters, not just words */
+  hyphens: auto;                /* Breaks long words to prevent "rivers of white" */
+  line-height: 1.7;             /* Increases vertical space for better legibility */
+  margin-bottom: 1.5rem;        /* Adds clean spacing between paragraphs */
+}
+
+/* --- Heading Fixes --- */
+/* Headings should NOT be justified, or they will stretch awkwardly */
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  margin-top: 1.5em;
+  font-weight: 700;
+  color: #2c3e50; /* A professional dark navy/grey */
+}
+
+/* --- Portfolio Grid Adjustments --- */
+/* This makes the titles under your project images look centered and clean */
+.listing-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* --- Mobile Optimization --- */
+/* On small phone screens, justification often breaks. 
+   This switches it back to left-aligned for mobile users. */
+@media (max-width: 768px) {
+  p {
+    text-align: left;
+    hyphens: none;
+  }
+}
+
+/* --- Clean Up Links --- */
+a {
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Center the project grid container */
+.quarto-listing-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Ensure the grid itself is centered and has a reasonable max width */
+.quarto-listing {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; /* Adjust this number to control how wide the grid can get */
+  width: 100%;
+}
+
+/* Center the 'Projects' title to match the grid */
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  text-align: center;
+}
+
+/* 1. Center the main column and the title block */
+#quarto-content.page-columns {
+  display: flex;
+  justify-content: center;
+}
+
+/* 2. Constrain the article width so it doesn't stretch to the right */
+.quarto-title-block, 
+main.content {
+  max-width: 850px; /* This is the "sweet spot" for readability */
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 3. Make the 'On this page' sidebar less intrusive */
+#quarto-margin-sidebar {
+  padding-left: 20px;
+  font-size: 0.85rem; /* Makes the TOC text slightly smaller and professional */
+}
+
+/* 4. Fix the Title alignment */
+.quarto-title {
+  text-align: center;
+}
+
+/* Make the 'On this page' title look more professional */
+#quarto-margin-sidebar .sidebar-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #2c3e50; /* Flatly Navy */
+  text-transform: uppercase;
+}
+
+/* Style the 'Back to Top' button if you want to customize it */
+.quarto-back-to-top {
+  color: #18bc9c !important; /* Flatly Green */
+}
+
+/* Ensure the main content stays centered and readable */
+main.content {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
