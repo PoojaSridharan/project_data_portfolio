@@ -1,0 +1,57 @@
+---
+title: "A/B Testing: Landing Page Redesign"
+format: html
+editor: visual
+image: img5.png
+---
+
+## \[[Project Link](https://github.com/PoojaSridharan/Projects/tree/main/AB%20Testing)\] {.unlisted}
+
+This A/B testing case study by Pooja Sridharan provides a compelling narrative of how data-driven design can significantly impact business revenue. Below is a structured "story" format designed for a professional portfolio or LinkedIn feature.
+
+## 📈 Case Study: Driving Growth Through Data-Driven Design
+
+**Objective:** Evaluate if a redesigned landing page would outperform the existing version in user conversions.
+
+### 🔍 The Business Challenge
+
+In digital products, the landing page is the "moment of truth." My goal was to determine if a new design could move the needle on **conversion rates**, a critical metric for both revenue and user engagement. Before committing to a full-scale launch, we needed to validate that any observed improvements were statistically reliable and not just a product of random chance.
+
+### 🛠️ Experiment Design & Validation
+
+To ensure clean, actionable results, I structured a rigorous experiment:
+
+-   **Sample Size:** Utilized a dataset of approximately **294,000 users** to ensure high statistical power.
+
+-   **Randomization:** Users were split into a **Control Group** (existing page) and a **Treatment Group** (redesign).
+
+-   **Hygiene Checks:** Before analysis, I verified there were no duplicate records and confirmed that randomization successfully balanced demographic attributes like age, gender, and device type.
+
+-   **Metric Selection:** A correlation analysis confirmed that **conversion status** was strongly linked to **purchase amount**, validating conversion rate as the ideal primary metric.
+
+### 📊 Key Findings
+
+The data revealed a clear winner. The redesigned page didn't just perform better—it performed significantly better.
+
+|                               |                             |
+|-------------------------------|-----------------------------|
+| **Metric**                    | **Results**                 |
+| **Control Conversion Rate**   | 11.87%                      |
+| **Treatment Conversion Rate** | 17.95%                      |
+| **Absolute Lift**             | **+6.08 percentage points** |
+
+### 🧪 Statistical Rigor
+
+To confirm these results, I applied a **two-sample proportion z-test**:
+
+-   **Z-statistic:** -46.28
+
+-   **P-value:** \< 0.001 (Highly significant)
+
+-   **95% Confidence Interval:** \[5.8%, 6.3%\]
+
+Because the entire confidence interval was well above zero, we had strong evidence that the redesign was a "practically meaningful" improvement for the business.
+
+### 💡 Recommendation & Impact
+
+Based on the evidence, I recommended a **full roll-out** of the redesigned landing page. This project demonstrated how a controlled experiment can transform a design hypothesis into a proven revenue driver.

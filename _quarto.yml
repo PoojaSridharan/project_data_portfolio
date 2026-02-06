@@ -22,7 +22,7 @@ format:
       light: flatly
       dark: darkly # Give your users a dark mode option!
     css: styles.css
-    toc: true
+    toc: false
     back-to-top-navigation: true
     # This helps with that "empty right space" issue
     page-layout: article
