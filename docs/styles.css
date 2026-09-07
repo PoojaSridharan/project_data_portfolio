@@ -110,7 +110,7 @@ main.content {
 
 /* Ensure the main content stays centered and readable */
 main.content {
-  max-width: 850px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
