@@ -25,6 +25,6 @@ format:
     toc: false
     back-to-top-navigation: true
     # This helps with that "empty right space" issue
-    page-layout: article
+    #page-layout: article
 
 editor: visual
