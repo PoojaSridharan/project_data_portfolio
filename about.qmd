@@ -7,6 +7,6 @@ about:
   image-width: 15em
 ---
 
-I’m a Data Analyst with 4+ years of experience using data to support business and customer decision-making. I specialize in SQL, Python, and BI tools like Power BI and ThoughtSpot, with hands-on experience building dashboards, automating reports, and translating complex data into clear insights.
+I’m a Senior Data Engineer and AI Engineer with 8+ years of experience designing scalable cloud data platforms, modern Lakehouse architectures, and AI-powered data solutions across Healthcare, FinTech, Analytics, and EdTech. I specialize in Python, SQL, PySpark, Databricks, Snowflake, Apache Spark, Airflow, Kafka, dbt, and cloud platforms including Azure and AWS, with experience building high-performance ETL/ELT pipelines, real-time data solutions, and enterprise data platforms.
 
-I’ve worked in client-facing and business analytics roles, where I partnered with stakeholders to improve metric visibility, reporting efficiency, and data accuracy. I’m currently pursuing an MS in Data Analytics Engineering at George Mason University and actively building projects in SQL, Power BI, and Python to deepen my analytics and machine learning skills.
+My recent work focuses on Generative AI and AI-ready data engineering, including RAG, LLM applications, AI Agents, LangChain, LangGraph, Azure OpenAI, vector databases, and semantic search. I enjoy working at the intersection of data engineering and AI, building reliable data foundations and intelligent applications that turn complex enterprise data into scalable, production-ready solutions.
