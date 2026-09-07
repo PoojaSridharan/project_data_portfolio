@@ -115,3 +115,14 @@ main.content {
   margin-right: auto;
   padding-top: 20px;
 }
+
+/* Make About page content wider */
+#quarto-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#quarto-content .content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
